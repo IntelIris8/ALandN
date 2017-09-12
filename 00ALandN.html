@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <title>About Last Night...</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <link href="https://fonts.googleapis.com/css?family=Amatic+SC|Caveat|Rock+Salt" rel="stylesheet">
+</head>
+
+<body>
+    <header class="header8" id="header8">
+        <div class="intro center-content">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-10 col-md-offset-1 col-sm-10 col-sm-offset-1 col-xs-12">
+                        <div class="email text-center"><i class="fa fa-envelope-o"></i></div>
+                        <p class="tag-line text-center"></p>
+                        <h1 class="pull-stop text-center" id="mainText">About Last Night...</h1>
+                        <br>
+                        <br>
+                        <br>
+                        <form class="login-reg subscribe text-center form-inline">
+                            <div class="row margin-bottom-0">
+                                <div class="col-md-12 col-sm-12">
+                                    <div class="form-group">
+                                        <input type="text" class="form-control input-lg" id="exampleText" placeholder="Your Destination">
+                                    </div>
+                                    <button type="button" class="btn btn-info button" id="submitBtn">Search</button>
+                                </div>
+                                <div class="col-md-12">
+                                </div>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+                <!-- row -->
+            </div>
+            <!-- intro -->
+        </div>
+        <!-- container -->
+    </header>
+    <!-- header -->
+    <div class="resultsPage hidden">
+        <div class="jumbotron" id="jumbo1">
+            <div class="col-md-12">
+                <div class="row">
+                    <h3 class="display-3" id="cityLabel"></h3>
+                    <p id="tempInput"> </p>
+                    <hr class="my-4">
+                </div>
+            </div>
+        </div>
+        <div class="jumbotron" id="jumbo2">
+            <div class="col-md-12">
+                <div class="row">
+                    <section id="blog1" class=" blog1">
+                        <div class="container">
+                            <div class="row">
+                                <div class="col-md-8 col-md-offset-2 text-center">
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="col-md-10 col-md-offset-1">
+                                    <div class="row">
+                                        <div class="col-md-4 col-sm-6 col-xs-12">
+                                            <div class="blog-post wow fadeInUp" data-wow-delay="0.2s">
+                                                <div class="post-img">
+                                                    <img class="img-responsive" src="bed.jpg" alt="image">
+                                                    <div class="date text-center"><span>15</span>
+                                                        <br>Dec</div>
+                                                    <ul class="list-inline post-info">
+                                                        <li><i class="lnr lnr-eye"></i> $325</li>
+                                                    </ul>
+                                                </div>
+                                                <div class="blog-details">
+                                                    <h4 class="media-heading">Motel 6</h4>
+                                                    <p id="description"></p>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="col-md-4 col-sm-6 col-xs-12">
+                                            <div class="blog-post wow fadeInUp" data-wow-delay="0.4s">
+                                                <div class="post-img">
+                                                    <img class="img-responsive" src="hotel.jpg" alt="image">
+                                                    <div class="date text-center"><span>15</span>
+                                                        <br>Dec</div>
+                                                    <ul class="list-inline post-info">
+                                                        <li><i class="lnr lnr-eye"></i> $325</li>
+                                                    </ul>
+                                                </div>
+                                                <div class="blog-details">
+                                                    <h4 class="media-heading">Hotel: Holiday Inn</h4>
+                                                    <p>Our luxurious rooms also come with complimentary wifi.</p>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="col-md-4 col-sm-6 col-xs-12" id="thirdTab">
+                                            <div class="blog-post wow fadeInUp" data-wow-delay="0.6s">
+                                                <div class="post-img">
+                                                    <img class="img-responsive" src="bed.jpg" alt="image">
+                                                    <div class="date text-center"><span>15</span>
+                                                        <br>Dec</div>
+                                                    <ul class="list-inline post-info">
+                                                        <li><i class="lnr lnr-eye"></i> $325</li>
+                                                    </ul>
+                                                </div>
+                                                <div class="blog-details">
+                                                    <h4 class="media-heading">Input hotel name</h4>
+                                                    <p> Check out our new hotel suites.</p>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                </div>
+            </div>
+            </section>
+        </div>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/4.3.0/firebase.js"></script>
+    <script src="aln.js"></script>
+     <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDkJsD-5mxwxuYQKC2RlrA8j_TtARAAQmM&libraries=places&callback=initAutocomplete"
+       async defer></script>
+</body>
+
+</html>

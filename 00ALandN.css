@@ -1,0 +1,63 @@
+
+body{
+
+	background-image: url("citylights.jpg");
+	background-repeat: no-repeat;'
+}
+.text{
+	font-family: 'Caveat', cursive;
+	color:#FFFFFF;
+	margin-left: 30px;
+	margin-top: 40px;
+}
+#jumbo1{
+		font-family: 'Caveat',cursive;
+		color: #666;
+		height: 120px;
+		width: 700px;
+		margin-left: 280px;
+}
+#jumbo2{
+		font-family: 'Caveat',cursive;
+		color: #666;
+		height: 440px;
+		width: 900px;
+		margin-left: 240px;
+}
+#cityLabel{
+	margin-top: -40px;
+	margin-left: 30px;
+}
+#blog1{
+	color: #666;
+
+}
+
+#mainText{
+	font-family: 'Caveat', cursive;
+	color:#FFFFFF;
+	text-align: center;
+	margin-top: 150px;
+
+}
+#thirdTab{
+	margin-left: 0px;
+}
+.tempInput{
+	font-size: 70px;
+	color: #666;
+	margin-left: 150px;
+	margin-top: -55px;
+}
+#submitBtn{
+	background-color: #545454;
+	border-color: #545454;
+	opacity: 0.5;
+
+}
+/*div{
+	height: 200px;
+	width: 200px;
+	background-color: white;
+	opacity: 0.2;
+}*/
